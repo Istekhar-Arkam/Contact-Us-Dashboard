@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Menu, X } from "lucide-react";
 
@@ -34,9 +33,11 @@ export function Navbar() {
 
   return (
     <div className="relative w-full bg-white">
-      <div className="border border-black mx-auto flex items-center justify-between px-4 py-2 sm:px-6 lg:px-7 sm:h-16 shadow-lg">
+      <div className="mx-auto flex items-center justify-between px-4 py-2 sm:px-6 lg:px-7 sm:h-16 shadow-lg bg-black text-white">
         <div className="inline-flex items-center space-x-2">
-          <h1 className="font-black text-2xl px-7 hover:bg-gray-700 hover:text-slate-200">I.ARKAM</h1>
+          <h1 className="font-black text-2xl px-7 hover:bg-lime-500 hover:text-slate-200">
+            I.ARKAM
+          </h1>
         </div>
         <div className="hidden grow items-start lg:flex">
           <ul className="inline-flex space-x-8 ml-28">
@@ -44,7 +45,7 @@ export function Navbar() {
               <li key={item.name}>
                 <a
                   href={item.href}
-                  className="text-lg font-semibold text-gray-800 hover:text-gray-900"
+                  className="text-lg font-semibold text-white hover:text-lime-500"
                 >
                   {item.name}
                 </a>
@@ -59,7 +60,7 @@ export function Navbar() {
           >
             LOGIN
           </button>
-         </div>
+        </div>
         <div className="lg:hidden">
           <Menu onClick={toggleMenu} className="h-6 w-6 cursor-pointer" />
         </div>
@@ -117,7 +118,6 @@ export function Navbar() {
                 >
                   LOGIN
                 </button>
-               
               </div>
             </div>
           </div>
