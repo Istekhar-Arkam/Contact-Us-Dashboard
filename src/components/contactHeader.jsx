@@ -1,4 +1,5 @@
 import FirstForm from "../components/firstForm";
+import SecondForm from "./secondForm";
 
 const ContactHeader = () => {
   return (
@@ -18,6 +19,7 @@ const ContactHeader = () => {
             </p>
           </div>
           <FirstForm />
+          <SecondForm/>
         </div>
       </div>
     </>

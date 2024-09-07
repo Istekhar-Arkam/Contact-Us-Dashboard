@@ -1,5 +1,5 @@
 import React from "react";
-import Button1 from "./componentButton/button1";
+import Button1 from "../componentButton/button1";
 import { MdOutlineMessage } from "react-icons/md";
 import { MdCall } from "react-icons/md";
 
