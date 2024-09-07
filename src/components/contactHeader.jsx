@@ -1,4 +1,4 @@
-import Form from "./form";
+import FirstForm from "../components/firstForm";
 
 const ContactHeader = () => {
   return (
@@ -17,7 +17,7 @@ const ContactHeader = () => {
               PHONE, EMAIL, OR SOCIAL MEDIA.
             </p>
           </div>
-          <Form />
+          <FirstForm />
         </div>
       </div>
     </>
