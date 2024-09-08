@@ -9,7 +9,7 @@ const ContactHeader = () => {
         <div className="max-w-5xl">
           {/* contact container */}
 
-          <div className="px-4">
+          <div className="px-4 mx-3">
             <h1 className="font-bold text-3xl py-7 sm:text-6xl">Contact Us</h1>
             <p>
               LET’S CONNECT : WE’RE HERE TO HELP, AND WE’D LOVE TO HEAR FROM

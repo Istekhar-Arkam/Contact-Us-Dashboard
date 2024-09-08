@@ -5,9 +5,9 @@ export default function SecondForm() {
   return (
     <form>
       <div className="space-y-12 flex flex-col sm:flex-row">
-        <div className="border-b border-gray-900/10">
+        <div className="border-b border-gray-900/10 ">
           <Button2 />
-          <div className="mt-5 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+          <div className="mt-5 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6 mx-3">
             <div className="sm:col-span-3 w-full">
               <label
                 htmlFor="first-name"

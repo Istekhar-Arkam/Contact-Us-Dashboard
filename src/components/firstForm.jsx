@@ -7,7 +7,7 @@ const FirstForm = () => {
   return (
     <>
       <div className="flex flex-col sm:flex-row">
-        <div className="my-5 sm:px-10 sm:gap-5 flex flex-col sm:flex-row">
+        <div className="my-5 sm:px-10 sm:gap-5 flex flex-col sm:flex-row mx-3">
           <Button1
             text="VIA SUPPORT CHAT"
             icon={<MdOutlineMessage className="text-xl ma" />}
