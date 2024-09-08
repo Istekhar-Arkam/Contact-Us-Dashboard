@@ -35,8 +35,8 @@ export function Navbar() {
     <div className="relative w-full bg-white">
       <div className="mx-auto flex items-center justify-between px-4 py-2 sm:px-6 lg:px-7 sm:h-16 shadow-lg bg-black text-white">
         <div className="inline-flex items-center space-x-2">
-          <h1 className="font-black text-2xl px-7 hover:bg-lime-500 hover:text-slate-200">
-            I.ARKAM
+          <h1 className="text-white text-2xl px-7 hover:bg-lime-500 hover:text-slate-200 font-medium">
+            IA
           </h1>
         </div>
         <div className="hidden grow items-start lg:flex">
