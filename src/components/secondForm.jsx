@@ -10,7 +10,7 @@ export default function SecondForm() {
   };
   return (
     <form onSubmit={onSubmit}>
-      <div className="flex flex-col space-y-10 border-2 border-green-500 lg:flex-row sm:px-2 lg:space-y-0 ">
+      <div className="flex flex-col space-y-10 lg:flex-row sm:px-2 lg:space-y-0 ">
         <div className="border-b border-gray-900/10">
           <Button2 />
           <div className="grid grid-cols-1 mx-3 mt-5 gap-x-6 gap-y-8 sm:grid-cols-6">
@@ -69,7 +69,7 @@ export default function SecondForm() {
             </div>
           </div>
         </div>
-        <div className="w-full px-3 border-2 border-red-500 lg:ml-4">
+        <div className="w-full px-3 lg:ml-4">
           <img src={contactImage} alt="image" />
         </div>
       </div>
