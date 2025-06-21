@@ -2,15 +2,15 @@ import Button2 from "../componentButton/button2";
 import contactImage from "../assets/image/contactImage.jpg";
 
 export default function SecondForm() {
-  const onSubmit=(event)=>{
+  const onSubmit = (event) => {
     event.preventDefault();
-console.log("name",event.target[1].value);
-console.log("email",event.target[2].value);
-console.log("textarea",event.target[3].value);
-  }
+    console.log("name", event.target[1].value);
+    console.log("email", event.target[2].value);
+    console.log("textarea", event.target[3].value);
+  };
   return (
     <form onSubmit={onSubmit}>
-      <div className="flex flex-col space-y-12 sm:flex-row ">
+      <div className="flex flex-col space-y-10 border-2 border-green-500 lg:flex-row sm:px-2 lg:space-y-0 ">
         <div className="border-b border-gray-900/10">
           <Button2 />
           <div className="grid grid-cols-1 mx-3 mt-5 gap-x-6 gap-y-8 sm:grid-cols-6">
@@ -69,7 +69,7 @@ console.log("textarea",event.target[3].value);
             </div>
           </div>
         </div>
-        <div className="w-full px-3">
+        <div className="w-full px-3 border-2 border-red-500 lg:ml-4">
           <img src={contactImage} alt="image" />
         </div>
       </div>
